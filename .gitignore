@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+*.egg-info/
+dist/
+.pytest_cache/
+test.db
+*.pyc
+
+# Node
+node_modules/
+.next/
+out/
+.npm
+
+# Env
+.env
+.env.local
+.env.*.local
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Build
+/build
+/dist
+
+# Test coverage
+htmlcov/
+.coverage
