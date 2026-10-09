@@ -96,7 +96,7 @@ In the Repositories page, each repo has a 🧠 memory editor:
 - **Coding Standards**: "All functions must have type hints. Max 50 lines."
 - **Team Conventions**: "PRs must reference a Jira ticket. No secrets in code."
 
-This context is injected into every AI review so Claude can say "This violates your team's no-bare-exceptions convention."
+This context is injected into every AI review so the AI reviewer can flag violations of your team's conventions.
 
 ## Running Tests
 

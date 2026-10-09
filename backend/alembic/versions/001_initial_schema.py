@@ -73,7 +73,7 @@ def upgrade():
         sa.Column("security_flags", sa.JSON(), default=list),
         sa.Column("metrics", sa.JSON(), default=dict),
         sa.Column("raw_ai_response", sa.Text(), nullable=True),
-        sa.Column("model_used", sa.String(), default="claude-sonnet-4-20250514"),
+        sa.Column("model_used", sa.String(), default="groq"),
         sa.Column("tokens_used", sa.Integer(), default=0),
         sa.Column("created_at", sa.DateTime(timezone=True), server_default=sa.func.now()),
     )

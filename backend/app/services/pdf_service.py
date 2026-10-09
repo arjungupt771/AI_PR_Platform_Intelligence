@@ -130,7 +130,7 @@ def generate_review_html(review_data: dict, pr_data: dict) -> str:
         suggestions=review_data.get("suggestions", []),
         security_flags=review_data.get("security_flags", []),
         metrics=review_data.get("metrics", {}),
-        model_used=review_data.get("model_used", "claude-sonnet-4-20250514"),
+        model_used=review_data.get("model_used", "groq"),
     )
 
 

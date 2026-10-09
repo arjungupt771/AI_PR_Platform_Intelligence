@@ -27,7 +27,7 @@ if [ ! -f .env ]; then
     echo "✅ .env created with auto-generated secrets"
     echo ""
     echo "⚠️  Please fill in these values in .env before continuing:"
-    echo "   - ANTHROPIC_API_KEY"
+    echo "   - GROQ_API_KEY"
     echo "   - GITHUB_CLIENT_ID"
     echo "   - GITHUB_CLIENT_SECRET"
     echo "   - GITHUB_WEBHOOK_SECRET"

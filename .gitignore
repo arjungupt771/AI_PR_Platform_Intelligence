@@ -8,6 +8,7 @@ venv/
 dist/
 .pytest_cache/
 test.db
+test_app.db
 *.pyc
 
 # Node
@@ -40,3 +41,6 @@ Thumbs.db
 # Test coverage
 htmlcov/
 .coverage
+
+# Celery runtime files
+backend/celerybeat-schedule*
